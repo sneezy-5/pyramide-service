@@ -1,0 +1,82 @@
+
+
+.centre{
+    background: #02080e;
+    height: 669px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space:nowrap;
+}
+
+.centre p {
+  color: #0a808c;
+  font-size: 50px;
+  font-family: serif;
+
+ 
+}
+.centre span{
+  display: flex;
+  justify-content:center;
+}
+
+
+@media only screen and (max-width:1126px){
+  .centre p{
+    font-size:45px;
+  }
+}
+
+@media only screen and (max-width:1014px){
+  .centre p{
+    font-size:40px;
+  }
+}
+
+
+@media only screen and (max-width:905px){
+  .centre p{
+    font-size:35px;
+  }
+}
+
+
+@media only screen and (max-width:789px){
+  .centre p{
+    font-size:30px;
+  }
+}
+
+
+@media only screen and (max-width:669px){
+  .centre p{
+    font-size:25px;
+  }
+}
+
+@media only screen and (max-width:562px){
+  .centre p{
+    font-size:20px;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .centre p{
+    font-size:15px;
+  }
+}
+
+
+
+@media only screen and (max-width:338px){
+  .centre p{
+    font-size:13px;
+  }
+}
+
+@media only screen and (max-width:298px){
+  .centre p{
+    font-size:10px;
+  }
+}

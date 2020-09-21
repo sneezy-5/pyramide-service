@@ -1,0 +1,157 @@
+header > ul>li:nth-child(2){
+  background:#83b5dc;
+}
+
+#principal2:hover::before{
+content:'';
+position:absolute;
+height:3px;
+width:120px;
+background:#ffffff;
+left:55px;
+top:0px;
+animation:der 1s
+}
+
+#principal2::before{
+  content:'';
+position:absolute;
+height:3px;
+width:120px;
+background:#ffffff;
+left:55px;
+top:0px;
+}
+
+@keyframes der{
+  0%{
+content:'';
+position:absolute;
+height:3px;
+width:0px;
+background:#ffffff;
+left:55px;
+top:0px;
+  }
+
+100%{
+content:'';
+position:absolute;
+height:3px;
+width:120px;
+background:#ffffff;
+left:55px;
+top:0px;
+}
+}
+
+
+
+.banniere{
+  height: 500px;
+  background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('/static/img/acceuil.jpg');
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  justify-content:center;
+  
+  }
+  
+  
+  .titre{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:250px;
+    margin-right:20px;
+    line-height:1.5;
+    color:#646464
+  
+    }
+    
+    .titre span{
+    font-size:40px;;
+    font-weight:600
+    }
+    
+    .titre strong{
+    color:#22bdf9
+    }
+    
+    .titre p{
+    font-size:20px;
+    font-weight:600;
+    margin-top:-10px
+    }
+    
+    .titre nav{
+    font-size:13px;
+    margin-top:-25px;
+    }
+  
+  
+  .centre{
+  height:1500px;
+  background:#dee8ef;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+   box-shadow:5px 30px 40px -10px #0000006e
+  }
+  
+  .centre strong{
+    color:#22bdf9
+  }
+
+.centre{
+  background-color: #dee7ef;
+font-family:sans-serif;
+font-size:16px;
+padding-top:40px;
+line-height:1.4;
+z-index: 5;
+box-shadow:5px 20px 50px 2px #0000006b;
+height:440px;
+display:flex;
+flex-direction:column
+}
+
+
+.img-centre{
+background:center/cover no-repeat url('/static/img/maintenance.jpg');
+height:340px;
+width:496px;
+z-index:5;
+margin:auto;
+
+}
+
+.design:before{
+  content:'';
+  border:5px solid #ffffff;
+  height:340px;
+  width:530px;
+  background:#4b595900;
+  z-index:5;
+  position:absolute;
+  left:-270px;
+  z-index:1;
+  top:-190px
+}
+
+.design{
+  background:#5e90bc;
+  position:absolute;
+  z-index:1
+}
+
+.centre div{
+  margin:15px;
+  width:550px;
+  margin:auto;
+  margin-top:20px;
+   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height:1.5;
+  color:#3f3f3f
+}

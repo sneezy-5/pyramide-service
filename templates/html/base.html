@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block style %}{% endblock %}
+</head>
+<body>
+    <div class="pere">
+		<header>
+           <img src="{% static 'img/logo2.png' %}" alt="">
+			<ul>
+				<li id="principal"><a href="{% url 'acceuils' %}">Accueil</a>
+				</li>
+				<li id="principal2"><a href="{% url 'activites' %}">Activités</a>
+					<ul id="submenu">
+						<li><a href="{% url 'electricite' %}">Electricité Générale</a> </li>
+						<li><a href="{% url 'batiments' %}">Bâtiment</a> </li>
+						<li><a href="{% url 'plombiers' %}">Plomberie industrielle</a> </li>
+						<li><a href="{% url 'maintenances' %}">Maintenance</a> </li>
+						<li><a href="{% url 'ventes' %}">Vente</a> </li>
+					</ul>
+				</li>
+				<li id="principal3"> <a href="{% url 'contacts' %}">Contact</a> </li>
+			</ul>
+		</header>
+		
+		{% block contend %}{% endblock %}
+	</div>
+<footer>
+
+		<p><strong>PYRAMIDE</strong> SERVICES</p>
+	 <div class="bars">
+
+		<div>
+				
+				<strong>Entreprise poly-activité</strong><br>
+				Siège social :   Abidjan Cocody - Angré 8ème tranche<br>
+				
+				Mobile : +225 22 45 82 11
+				Mobile : +225 88 72 56 99 
+				Email : pyramideservice02@gmail.com  
+
+		 </div>
+		 
+		 <div>
+			 <span>EXCUTION DE PROJET</span>
+			 Dans un souci perpétuel de respecter la relation Client – Opérateur, la société s’est fondée sur le Respect stricte de son Programme et Planning d’exécution très bien défini.
+		 </div>
+
+		 <div>
+			<span>SECURITE</span><br>
+			Nous somment stricte sur les principes fondamentaux de sécurité par le port des EPI (Equipements de Protection Individuelle), d’Hygiène et d’Environnement.
+		 </div>
+
+		 <div>
+			<span>NOS ATOUTS</span><br>
+			Rigueur – Dynamisme – Respect de la clientèle et du planning – Compétence.
+		 </div>
+	 </div>
+
+	 <div class="sign">
+		© <span>ESO-DEV</span> 2020 | Agence marketing digital Abidjan - Création de sites internet - Référencement SEO - Webmarketing - Réseaux Sociaux
+	</div>
+	</footer>
+	<!--<script type="text/javascript" src="//compteur.websiteout.com/js/13/0/0/0"></script>-->
+
+	<div id="sfca96grky6u1aahz4jktpa72guzgaq9f5f"></div><script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=a96grky6u1aahz4jktpa72guzgaq9f5f&down=async" async></script><noscript><a href="https://www.compteurdevisite.com" title="compteur de visite"><img src="https://counter3.stat.ovh/private/compteurdevisite.php?c=a96grky6u1aahz4jktpa72guzgaq9f5f" border="0" title="compteur de visite" alt="compteur de visite"></a></noscript>
+
+	<a href="https://www.compteurdevisite.com" title="compteur de visite"><img src="https://counter3.stat.ovh/private/compteurdevisite.php?c=a96grky6u1aahz4jktpa72guzgaq9f5f" border="0" title="compteur de visite" alt="compteur de visite"></a>
+</body>
+</html>
