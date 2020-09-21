@@ -1,0 +1,11 @@
+!.gitignore
+venv
+*.pyc
+staticfiles
+.env
+db.sqlite3
+.idea
+django
+*.pyc
+staticfiles
+.ven 
