@@ -37,9 +37,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = get_env_variable('SECRET_KEY', '(w#+*6cb)ga@yp6#*5(7*2=*afvx1d&$b!y(3)4-r2-^n0%bwl'
 )
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
