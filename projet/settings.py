@@ -12,6 +12,20 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 import os
 from pathlib import Path
 
+
+def get_env_variable(var_name, default_value=None):
+    try:
+        return os.environ[var_name]
+        
+    except KeyError:
+        if default_value is None:
+            error_msg = 'set the {} environnemnt variable'.format(var_name)
+            raise ImproperlyConfigured(error_msg)
+        else:
+            return default_value
+
+ 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
@@ -20,8 +34,8 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '(w#+*6cb)ga@yp6#*5(7*2=*afvx1d&$b!y(3)4-r2-^n0%bwl'
-
+SECRET_KEY = get_env_variable('SECRET_KEY', '(w#+*6cb)ga@yp6#*5(7*2=*afvx1d&$b!y(3)4-r2-^n0%bwl'
+)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
