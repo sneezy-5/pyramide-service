@@ -735,12 +735,14 @@ top:0px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	left: -200px;
 }
 .equipe {
 position: relative;
 	font-size: 30px;
 	bottom: 170px;
-	left: 300px
+	left: 260px
 }
 
 .equipe1{
