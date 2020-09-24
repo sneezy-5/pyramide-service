@@ -39,34 +39,80 @@
             </div>
 
               <div class="form-parent" id="form">
-               <form class="form" method="post">
+               <form class="form" method="post" id="form">
                         <h3>ENVOYER UN MESSAGE</h3>
                             
                      {% csrf_token %}
-
-                     {% render_field form.nomPrenom  placeholder=" nom et prenom"  id="case1"%}
-                     <span id="erreur"></span>
-                     {% render_field form.Email  placeholder=" votre Email" %}
-                     {% render_field form.sujet  placeholder=" sujet " %}
-                     {% render_field form.message  placeholder=" message" %}
+                     <span id="error"></span>
+                     {% render_field form.nomPrenom  placeholder=" nom et prenom"  id="cas1"%}
+                     <span id="errors"></span>
+                     {% render_field form.Email  placeholder=" votre Email" id="cas2"%}
+                     <span id="errore"></span>
+                     {% render_field form.sujet  placeholder=" sujet " id="cas3"%}
+                     <span id="erroro"></span>
+                     {% render_field form.message  placeholder=" message" id="cas4"%}
+                     
                      <input type="submit" value="envoyer" >
                     </form>
 
 
-                    <script type="text/javascript">
+            <script type="text/javascript">
                         
-                        let myform = document.getElementById('form');
-                        myform.addEventListener('submit', function(e){
-                            let myinput = document.getElementById('case1');
-                            if(myinput.value.trim() == ""){
-                                let myerror = document.getElementById('erreur');
-                                myerror.innerHTML= "nom requis";
-                                myerror.style.color = 'blue';
-                                e.preventDefault();
-                            }
-                        })
+                            
+                    
+                    let myform=document.getElementById('form');
+                    let input1= document.getElementById('cas1');
+                    let input2= document.getElementById('cas2');
+                    let input3= document.getElementById('cas3');
+                    let input4= document.getElementById('cas4');
+                    let myerror= document.getElementById('error');
+                    let myerrors= document.getElementById('errors');
+                    let myerrore= document.getElementById('errore');
+                    let myerroro= document.getElementById('erroro');
+                    let emailReg = new RegExp(/^([\w-\.]+)@((?:[\w]+\.)+)([a-zA-Z]{2,4})/i);
+                    let regexName = /^([a-zA-Z])+$/i
+        
+                    myform.addEventListener('submit', function(e){
+                        if(input1.value == ""){
+                            e.preventDefault();
+                            myerror.innerHTML= "veillez rensigner un nom";
+                            myerror.style.color = 'red'
+                        }else if(regexName.test(input1.value)== false){
+                            myerrors.innerHTML= "veillez renseigner un nom valide";
+                            myerrors.style.color= 'red';
+                            e.preventDefault();
+                        }
 
-                    </script>
+
+                        if(input2.value == ""){
+                            e.preventDefault();
+                            myerrors.innerHTML= "veillez rensigner un email";
+                            myerrors.style.color = 'red'
+                        }else if(emailReg.test(input2.value)== false){
+                            myerrors.innerHTML= "veillez renseigner un email valide";
+                            myerrors.style.color= 'red';
+                            e.preventDefault();
+                        }
+
+
+                        if(input3.value == ""){
+                            e.preventDefault();
+                            myerrore.innerHTML= "veillez rensigner un sujet";
+                            myerrore.style.color = 'red';
+                        }
+
+
+                        if(input4.value == ""){
+                            e.preventDefault();
+                            myerroro.innerHTML= "veillez rensigner un mesage";
+                            myerroro.style.color = 'red';
+                        }
+                    
+                    });
+
+                
+
+            </script>
 
                 {%if errors %}
 

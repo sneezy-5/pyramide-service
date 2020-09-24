@@ -1,15 +1,19 @@
 {% extends 'html/base.html' %}
-
-{% block title %}
-
-	Error
-{% endblock %}
+{% load static %}
+{%block style %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/merci.css' %}">
+{% endblock%}
 
 {% block contend %}
-<p>Oooooops nous avons pas trouver votre page</p>
+				<div class="centre">
+					<p>.<br> votre page n'a pas été trouve <span>veillez vous diriger à l'eccueil...</span></p>
+				</div>
+				
+			
+		</div>  
 
-{% endblock %}
+	</body>
+</html>
 
-
-
+{% endblock%}
 

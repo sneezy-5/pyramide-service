@@ -1,10 +1,18 @@
 {% extends 'html/base.html' %}
-
-
+{% load static %}
+{%block style %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/merci.css' %}">
+{% endblock%}
 
 {% block contend %}
-<p>Oooooops nous avons rencontrez un problème au niveau du serveur</p>
+				<div class="centre">
+					<p>.<br> ooooops nous avons rencontré un poblème au niveau du serveur <span>veillez patienter...</span></p>
+				</div>
+				
+			
+		</div>  
 
-{% endblock %}
+	</body>
+</html>
 
-
+{% endblock%}
