@@ -53,7 +53,7 @@ top:0px;
 
 .banniere{
   height: 400px;
-  background:linear-gradient(to right, #ffffff5c, #fcfcfc),center/cover no-repeat url('img/etienne-girardet-sgYamIzhAhg-unsplash.jpg');
+  background:linear-gradient(to right, #ffffff5c, #fcfcfc),center/cover no-repeat url('/static/img/etienne-girardet-sgYamIzhAhg-unsplash.jpg');
   z-index:6;
   display:flex;
   flex-direction:column;
@@ -160,7 +160,7 @@ top:0px;
   .cas1{
     height:300px;
     width:500px;
-    background:center/cover no-repeat url('img/battiment1.jpg');
+    background:center/cover no-repeat url('/static/img/battiment1.jpg');
     margin:auto;
     margin-left:20px;
     margin-top:60px;
@@ -170,12 +170,12 @@ top:0px;
          
     @keyframes diapo1{
       0%{
-        background:center/cover no-repeat url("img/battiment1.jpg");
+        background:center/cover no-repeat url("/static/img/battiment1.jpg");
       }
       
       
       50%{
-        background:center/cover no-repeat  url("img/battiment2.jpg");
+        background:center/cover no-repeat  url("/static/img/battiment2.jpg");
       }
       
       }
@@ -268,7 +268,7 @@ top:0px;
   .cas2{
     height:300px;
     width:500px;
-    background:center/cover no-repeat url('img/froid1.jpg');
+    background:center/cover no-repeat url('/static/img/froid1.jpg');
     margin:auto;
     margin-right:20px;
     margin-top:200px;
@@ -278,12 +278,12 @@ top:0px;
          
     @keyframes diapo2{
       0%{
-        background:center/cover no-repeat url("img/froid1.jpg");
+        background:center/cover no-repeat url("/static/img/froid1.jpg");
       }
       
       
       50%{
-        background:center/cover no-repeat  url("img/froid2.jpg");
+        background:center/cover no-repeat  url("/static/img/froid2.jpg");
       }
       
       }
@@ -417,7 +417,7 @@ top:0px;
   }
   
   .centre a:nth-child(1){
-    background:center/cover no-repeat url('img/electricien.jpg');
+    background:center/cover no-repeat url('/static/img/electricien.jpg');
     height:500px;
     width:250px;
     transition:1s
@@ -427,7 +427,7 @@ top:0px;
   
   .centre a:nth-child(1):hover{
   transform:scale(1.05);
-  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/electricien.jpg');
+  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/electricien.jpg');
   color:#ffffff;
   
   }
@@ -460,13 +460,13 @@ top:0px;
   .centre a:nth-child(2){
   height:400px;
   width:250px;
-  background:center/cover no-repeat url('img/battiment.jpg');
+  background:center/cover no-repeat url('/static/img/battiment.jpg');
   transition:1s
   }
   
   .centre a:nth-child(2):hover{
   transform:scale(1.05);
-  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/battiment.jpg');
+  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/battiment.jpg');
   }
   
   
@@ -496,13 +496,13 @@ top:0px;
   .centre a:nth-child(3){
   height:500px;
   width:250px;
-  background:center/cover no-repeat url('img/plombier.jpg');
+  background:center/cover no-repeat url('/static/img/plombier.jpg');
   transition:1s
   }
   
   .centre a:nth-child(3):hover{
   transform:scale(1.05);
-  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/plombier.jpg')
+  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/plombier.jpg')
   }
   
   
@@ -532,13 +532,13 @@ top:0px;
   .centre a:nth-child(4){
   height:550px;
   width:200px;
-  background:center/cover no-repeat url('img/maintenance.jpg');
+  background:center/cover no-repeat url('/static/img/maintenance.jpg');
   transition:1s
   }
   
   .centre a:nth-child(4):hover{
     transform:scale(1.05);
-  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/maintenance.jpg');
+  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/maintenance.jpg');
   }
   
   .centre #i-4{
@@ -567,7 +567,7 @@ top:0px;
   .centre a:nth-child(5){
   height:250px;
   width:200px;
-  background:center/cover no-repeat url('img/vente.png');
+  background:center/cover no-repeat url('/static/img/vente.png');
   transition:1s
   }
   
@@ -575,7 +575,7 @@ top:0px;
   
   .centre a:nth-child(5):hover{
     transform:scale(1.05);
-  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/vente.png');
+  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/vente.png');
   }
   
   
@@ -932,7 +932,7 @@ top:0px;
   
   
   .centre a:nth-child(1){
-    background:center/cover no-repeat url('img/electricien.jpg');
+    background:center/cover no-repeat url('/static/img/electricien.jpg');
     height:500px;
     width:900px;
     transition:1s
@@ -943,7 +943,7 @@ top:0px;
   .centre a:nth-child(2){
   height:400px;
   width:900px;
-  background:center/cover no-repeat url('img/battiment.jpg');
+  background:center/cover no-repeat url('/static/img/battiment.jpg');
   transition:1s
   }
   
@@ -951,7 +951,7 @@ top:0px;
   .centre a:nth-child(3){
   height:500px;
   width:900px;
-  background:center/cover no-repeat url('img/plombier.jpg');
+  background:center/cover no-repeat url('/static/img/plombier.jpg');
   transition:1s
   }
   
@@ -959,14 +959,14 @@ top:0px;
   .centre a:nth-child(4){
   height:550px;
   width:900px;
-  background:center/cover no-repeat url('img/maintenance.jpg');
+  background:center/cover no-repeat url('/static/img/maintenance.jpg');
   transition:1s
   }
   
   .centre a:nth-child(5){
   height:550px;
   width:900px;
-  background:center/cover no-repeat url('img/vente.png');
+  background:center/cover no-repeat url('/static/img/vente.png');
   transition:1s
   }
   
@@ -975,7 +975,7 @@ top:0px;
   
   .centre a:nth-child(5):hover{
     transform:scale(1.05);
-  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/vente.png');
+  background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/vente.png');
   }
   
   h5{
@@ -1179,7 +1179,7 @@ top:0px;
   
   
     .centre a:nth-child(1){
-    background:center/cover no-repeat url('img/electricien.jpg');
+    background:center/cover no-repeat url('/static/img/electricien.jpg');
     height:500px;
     width:800px;
     transition:1s
@@ -1198,7 +1198,7 @@ top:0px;
   .centre a:nth-child(3){
   height:500px;
   width:800px;
-  background:center/cover no-repeat url('img/plombier.jpg');
+  background:center/cover no-repeat url('/static/img/plombier.jpg');
   transition:1s
   }
   
@@ -1206,14 +1206,14 @@ top:0px;
   .centre a:nth-child(4){
   height:550px;
   width:800px;
-  background:center/cover no-repeat url('img/maintenance.jpg');
+  background:center/cover no-repeat url('/static/img/maintenance.jpg');
   transition:1s
   }
   
   .centre a:nth-child(5){
   height:550px;
   width:800px;
-  background:center/cover no-repeat url('img/vente.png');
+  background:center/cover no-repeat url('/static/img/vente.png');
   transition:1s
   }
   
@@ -1289,7 +1289,7 @@ top:0px;
   
   
     .centre a:nth-child(1){
-    background:center/cover no-repeat url('img/electricien.jpg');
+    background:center/cover no-repeat url('/static/img/electricien.jpg');
     height:500px;
     width:700px;
     transition:1s
@@ -1415,7 +1415,7 @@ top:0px;
   
     
     .centre a:nth-child(1){
-    background:center/cover no-repeat url('img/electricien.jpg');
+    background:center/cover no-repeat url('/static/img/electricien.jpg');
     height:500px;
     width:600px;
     transition:1s
@@ -1525,7 +1525,7 @@ top:0px;
   
     
     .centre a:nth-child(1){
-    background:center/cover no-repeat url('img/electricien.jpg');
+    background:center/cover no-repeat url('/static/img/electricien.jpg');
     height:500px;
     width:500px;
     transition:1s

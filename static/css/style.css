@@ -52,7 +52,7 @@ top:0px;
 
 .banniere{
   height: 500px;
-  background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('img/acceuil.jpg');
+  background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('/static/img/acceuil.jpg');
   display:flex;
   flex-direction:column;
   align-items:flex-end;
@@ -112,18 +112,18 @@ top:0px;
   .cas1{
   height:441px;
   width:500px;
-  background:center/cover no-repeat url('img/politique1.jpg');
+  background:center/cover no-repeat url('/static/img/politique1.jpg');
   animation: diapo1 15s infinite;
   }
   
   @keyframes diapo1{
 	0%{
-	  background:center/cover no-repeat url("img/politique1.jpg");
+	  background:center/cover no-repeat url("/static/img/politique1.jpg");
   }
   
   
   50%{
-	  background:center/cover no-repeat  url("img/politique2.jpg");
+	  background:center/cover no-repeat  url("/static/img/politique2.jpg");
   }
   
   }
@@ -216,7 +216,7 @@ top:0px;
   .cas2{
   height:500px;
   width:500px;
-  background:center/cover no-repeat url('img/organisation1.jpg');
+  background:center/cover no-repeat url('/static/img/organisation1.jpg');
   animation:diapo2 15s infinite;
   }
 
@@ -224,12 +224,12 @@ top:0px;
     
   @keyframes diapo2{
 	0%{
-	  background:center/cover no-repeat url("img/organisation1.jpg");
+	  background:center/cover no-repeat url("/static/img/organisation1.jpg");
   }
   
   
   50%{
-	  background:center/cover no-repeat  url("img/organisation2.jpg");
+	  background:center/cover no-repeat  url("/static/img/organisation2.jpg");
   }
   
   }
@@ -329,7 +329,7 @@ top:0px;
   .cas3{
 	height:424px;
 	width:500px;
-	background:center/cover no-repeat url('img/ressource1.jpg');
+	background:center/cover no-repeat url('/static/img/ressource1.jpg');
 	animation: diapo3 15s infinite;
 	}
 
@@ -337,12 +337,12 @@ top:0px;
 	   
 	@keyframes diapo3{
 		0%{
-		  background:center/cover no-repeat url("img/ressource1.jpg");
+		  background:center/cover no-repeat url("/static/img/ressource1.jpg");
 	  }
 	  
 	  
 	  50%{
-		  background:center/cover no-repeat  url("img/ressource2.jpg");
+		  background:center/cover no-repeat  url("/static/img/ressource2.jpg");
 	  }
 	  
 	  }
@@ -445,7 +445,7 @@ top:0px;
 	.cas4{
 	  height:491px;
 	  width:500px;
-	  background:center/cover no-repeat url('img/moyen-technique1.jpg');
+	  background:center/cover no-repeat url('/static/img/moyen-technique1.jpg');
 	  animation:diapo4 15s infinite;
 	  }
 
@@ -453,12 +453,12 @@ top:0px;
 	     
   @keyframes diapo4{
 	0%{
-	  background:center/cover no-repeat url("img/moyen-technique1.jpg");
+	  background:center/cover no-repeat url("/static/img/moyen-technique1.jpg");
   }
   
   
   50%{
-	  background:center/cover no-repeat  url("img/moyen-technique2.jpg");
+	  background:center/cover no-repeat  url("/static/img/moyen-technique2.jpg");
   }
   
   }
@@ -748,7 +748,7 @@ position: relative;
 	position: relative;
 	width:200px;
 	height: 200px;
-	background:center/cover no-repeat url('img/plombier.jpg');
+	background:center/cover no-repeat url('/static/img/plombier.jpg');
 	border-radius: 1000px;
 	left: -300px;
 	
@@ -759,7 +759,7 @@ position: relative;
 	position: relative;
 	width:200px;
 	height: 200px;
-	background:center/cover no-repeat url('img/plombier.jpg');
+	background:center/cover no-repeat url('/static/img/plombier.jpg');
 	left: -170px;
 	border-radius: 1000px;
 }
@@ -769,7 +769,7 @@ position: relative;
 	position: relative;
 	width:200px;
 	height: 200px;
-	background:center/cover no-repeat url('img/plombier.jpg');
+	background:center/cover no-repeat url('/static/img/plombier.jpg');
 	
 	border-radius: 1000px;
 }
@@ -1277,7 +1277,7 @@ position: relative;
 	  .img-responsive{
 	  	height:500px;
 	  	
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:80px;
@@ -1285,8 +1285,8 @@ position: relative;
 	  }
   
 @keyframes diapo-respon1{
-	0%{background: center/cover no-repeat url('img/politique1.jpg');}
-    33%{background: center/cover no-repeat url('img/politique2.jpg');}
+	0%{background: center/cover no-repeat url('/static/img/politique1.jpg');}
+    33%{background: center/cover no-repeat url('/static/img/politique2.jpg');}
 }
 
 		 .centre .cas1{
@@ -1366,7 +1366,7 @@ height:50px;
 	   .img-responsive2{
 	  	height:500px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/organisation1.jpg');
+	  	background:center/cover no-repeat url('/static/img/organisation1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:80px;
@@ -1374,8 +1374,8 @@ height:50px;
 	  }
   
   @keyframes diapo-respon2{
-  	0%{background: center/cover no-repeat url('img/organisation1.jpg');}
-  	33%{background: center/cover no-repeat url('img/organisation2.jpg');}
+  	0%{background: center/cover no-repeat url('/static/img/organisation1.jpg');}
+  	33%{background: center/cover no-repeat url('/static/img/organisation2.jpg');}
   }
   
 	 .cas2-2{
@@ -1429,15 +1429,15 @@ height:50px;
 	   .img-responsive3{
 	  	height:500px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/ressource1.jpg');
+	  	background:center/cover no-repeat url('/static/img/ressource1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:80px;
 	  	animation: diapo-respon3 15s infinite;
 	  }
   @keyframes diapo-respon3{
-  	0%{background: center/cover no-repeat url('img/ressource1.jpg');}
-  	33%{background:center/cover no-repeat url('img/ressource2.jpg');}
+  	0%{background: center/cover no-repeat url('/static/img/ressource1.jpg');}
+  	33%{background:center/cover no-repeat url('/static/img/ressource2.jpg');}
   }
   
 	  .cas3-3{
@@ -1485,15 +1485,15 @@ height:50px;
 	   .img-responsive4{
 	  	height:500px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/moyen-technique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/moyen-technique1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:80px;
 	  	animation: diapo-respon4 15s infinite;
 	  }
   @keyframes diapo-respon4{
-  	0%{background: center/cover no-repeat url('img/moyen-technique1.jpg');}
-  	33%{background: center/cover no-repeat url('img/moyen-technique2.jpg');}
+  	0%{background: center/cover no-repeat url('/static/img/moyen-technique1.jpg');}
+  	33%{background: center/cover no-repeat url('/static/img/moyen-technique2.jpg');}
   }
   
   .cas4-4{
@@ -1809,7 +1809,7 @@ height:50px;
  .img-responsive{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:100px
@@ -1869,7 +1869,7 @@ white-space:nowrap
   .img-responsive2{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:100px
@@ -1930,7 +1930,7 @@ white-space:nowrap
   .img-responsive3{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:100px
@@ -1991,7 +1991,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:45%;
 	  	margin-left:auto;
 	  	margin-top:100px
@@ -2096,7 +2096,7 @@ white-space:nowrap
  .img-responsive{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:40px;
 	  	margin-top:20px
@@ -2144,7 +2144,7 @@ white-space:nowrap
   .img-responsive2{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:40px;
 	  	margin-top:20px
@@ -2191,7 +2191,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:40px;
 	  	margin-top:20px
@@ -2239,7 +2239,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:40px;
 	  	margin-top:20px
@@ -2366,7 +2366,7 @@ white-space:nowrap
  .img-responsive{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:30px;
 	  	margin-top:20px
@@ -2409,7 +2409,7 @@ white-space:nowrap;
   .img-responsive2{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:30px;
 	  	margin-top:20px
@@ -2456,7 +2456,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:30px;
 	  	margin-top:20px
@@ -2504,7 +2504,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:40px;
 	  	margin-top:20px
@@ -2659,7 +2659,7 @@ white-space:nowrap
 
 
   	.banniere{
-  background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('img/acceuil.jpg');
+  background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('/static/img/acceuil.jpg');
   margin-top:500px
   
   }
@@ -2715,7 +2715,7 @@ white-space:nowrap
   .img-responsive{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -2759,7 +2759,7 @@ z-index:5
   .img-responsive2{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -2806,7 +2806,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -2854,7 +2854,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:400px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3006,7 +3006,7 @@ white-space:nowrap
   .img-responsive{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3050,7 +3050,7 @@ z-index:5
   .img-responsive2{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3097,7 +3097,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3145,7 +3145,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3231,7 +3231,7 @@ white-space:nowrap
   .img-responsive{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3275,7 +3275,7 @@ white-space:nowrap;
   .img-responsive2{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3322,7 +3322,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3370,7 +3370,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3536,7 +3536,7 @@ white-space:nowrap
   .img-responsive{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3584,7 +3584,7 @@ white-space:nowrap;
   .img-responsive2{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3633,7 +3633,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3681,7 +3681,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:300px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3844,7 +3844,7 @@ white-space:nowrap
   .img-responsive{
 	  	height:200px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3894,7 +3894,7 @@ white-space:nowrap;
   .img-responsive2{
 	  	height:200px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3943,7 +3943,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:200px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -3992,7 +3992,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:200px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -4142,7 +4142,7 @@ footer{
 
   .img-responsive{
 	  	height:150px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -4192,7 +4192,7 @@ white-space:nowrap;
   .img-responsive2{
 	  	height:150px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -4241,7 +4241,7 @@ white-space:nowrap
 .img-responsive3{
 	  	height:150px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
@@ -4290,7 +4290,7 @@ white-space:nowrap
   .img-responsive4{
 	  	height:150px;
 	  	width:200px;
-	  	background:center/cover no-repeat url('img/politique1.jpg');
+	  	background:center/cover no-repeat url('/static/img/politique1.jpg');
 	  	width:90%;
 	  	margin-right:auto;
 	  	margin-top:20px
