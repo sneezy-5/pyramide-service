@@ -49,114 +49,252 @@ top:0px;
 
 
 .banniere{
-  height: 500px;
-  background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('/static/img/acceuil.jpg');
-  display:flex;
-  flex-direction:column;
-  align-items:flex-end;
-  justify-content:center;
-  
-  }
-  
-  
-  .titre{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    margin-top:250px;
-    margin-right:20px;
-    line-height:1.5;
-    color:#646464
-  
-    }
-    
-    .titre span{
-    font-size:40px;;
-    font-weight:600
-    }
-    
-    .titre strong{
-    color:#22bdf9
-    }
-    
-    .titre p{
-    font-size:20px;
-    font-weight:600;
-    margin-top:-10px
-    }
-    
-    .titre nav{
-    font-size:13px;
-    margin-top:-25px;
-    }
-  
+	height: 500px;
+	background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('/static/img/acceuil.jpg');
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	justify-content:center;
+	
+	}
+	
+	
+	.titre{
+	  display:flex;
+	  flex-direction:column;
+	  align-items:center;
+	  margin-top:250px;
+	  margin-right:20px;
+	  line-height:1.5;
+	  color:#646464
+	
+	  }
+	  
+	  .titre span{
+	  font-size:40px;;
+	  font-weight:600
+	  }
+	  
+	  .titre strong{
+	  color:#22bdf9
+	  }
+	  
+	  .titre p{
+	  font-size:20px;
+	  font-weight:600;
+	  margin-top:-10px
+	  }
+	  
+	  .titre nav{
+	  font-size:13px;
+	  margin-top:-25px;
+	  }
+	
+	
+	.centre{
+	height:1500px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	 box-shadow:5px 30px 40px -10px #0000006e
+	}
+	
+	.centre strong{
+	  color:#22bdf9
+	}
   
   .centre{
-  height:1500px;
-  background:#dee8ef;
+	background-color: #dee7ef;
+  font-family:sans-serif;
+  font-size:16px;
+  padding-top:40px;
+  line-height:1.4;
+  z-index: 5;
+  box-shadow:5px 20px 50px 2px #0000006b;
+  height:1000px;
   display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-wrap:wrap;
-   box-shadow:5px 30px 40px -10px #0000006e
+  flex-wrap:wrap
   }
   
-  .centre strong{
-    color:#22bdf9
+  
+  .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  height:340px;
+  width:550px;
+  z-index:5;
+  margin-left:10px;
+  
+  }
+  
+  .design:before{
+	content:'';
+	border:5px solid #ffffff;
+	height:340px;
+	width:530px;
+	background:#4b595900;
+	z-index:5;
+	position:absolute;
+	left:-550px;
+	z-index:1;
+	top:-400px
+  }
+  
+  .design{
+	background:#242424;
+	position:absolute;
+	z-index:1
+  }
+  
+  .centre div:nth-child(3){
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	width:550px;
+	margin-left:100px
   }
 
-.centre{
-  background-color: #dee7ef;
-font-family:sans-serif;
-font-size:16px;
-padding-top:40px;
-line-height:1.4;
-z-index: 5;
-box-shadow:5px 20px 50px 2px #0000006b;
-height:440px;
-display:flex;
-flex-direction:column
-}
+    .centre div:nth-child(6){
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	width:550px;
+	margin-left:-1140px 
+	}
 
-
-.img-centre{
-background:center/cover no-repeat url('/static/img/vente.png');
-height:340px;
-width:496px;
-z-index:5;
-margin:auto;
-
-}
-
-.design:before{
-  content:'';
-  border:5px solid #ffffff;
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
   height:340px;
-  width:530px;
-  background:#4b595900;
-  z-index:5;
-  position:absolute;
-  left:-270px;
-  z-index:1;
-  top:-190px
-}
-
-.design{
-  background:#5e90bc;
-  position:absolute;
-  z-index:1
-}
-
-.centre div{
-  margin:15px;
   width:550px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.5;
-  color:#3f3f3f
-}
+  z-index:15000;
+  margin-left:0px;
+  right:-40px;
+  position:relative
+  
+  }
 
+  .design2:before{
+	content:'';
+	border:5px solid #ffffff;
+	height:340px;
+	width:530px;
+	background:#32dfdf00;
+	z-index:5;
+	position:absolute;
+	left:20px;
+	z-index:1;
+	top:105px
+  }
+  
+  .design2{
+	background:#242424;
+	position:absolute;
+	z-index:1
+  }
+  
+
+ 
+  .centre div span{
+	color:#22bdf9
+  }
+  
+  .centre a{
+	text-decoration:none;
+  }
+  
+  
+  
+  /*footer*/
+  footer{
+	height:500px;
+	display:-webkit-box;
+	display:-moz-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+		-moz-flex-align:center;
+			align-items:center;
+	font-family:sans-serif;
+	font-size:16px;
+	color:#acacac;
+	line-height:2;
+	background-attachment:fixed;
+	background-color:#343434;
+	position:fixed;
+	bottom:0;
+	z-index:1;
+	top:5px;
+	width:100%;
+	margin-top:200px
+  
+  }
+  
+  footer .bars{
+  bottom:0;
+  z-index:1;
+  display:flex;
+  margin-top:100px;
+  margin-left:31px
+  }
+  
+  .bars div{
+	width:200px;
+	margin-top:-170px;
+	margin-left:70px;
+	line-height:1.5;
+	font-family:sans-serif;
+	font-size:15px;
+	letter-spacing:1px
+  }
+  
+  .bars strong{
+	color:white;
+  }
+  
+  .bars span{
+	color:#ffffff
+  }
+  
+  footer .img{
+	z-index:1;
+	margin-top:-120px
+  }
+  
+  footer p{
+	position:absolute;
+	font-size:30px;
+	left:100px;
+	top:0;;
+	font-weight:600
+  }
+  
+  footer p strong{
+	color:#22bdf9;
+  }
+  
+  footer .sign{
+	position:absolute;
+   width:400px;
+   bottom:80px;
+   left:100px;
+	 line-height:1.5;
+	font-family:sans-serif;
+	font-size:12px;
+	letter-spacing:1px;
+  }
+  
+  .sign span {
+    color: #67b8ff;
+}
+  
+  
+  .pere{
+  display:flex;
+  flex-direction:column;
+  z-index:5000;
+  position:relative;
+  background:#f1f3f6
+  }
+  
 
 
   /*responsive maintenance*/
@@ -179,49 +317,106 @@ footer{
   @media only screen and (max-width:1222px){
   
   
-  header ul{
-    padding-left:300px; 
+	header ul{
+		padding-left:300px; 
   }
   
   }
 
+
   @media only screen and (max-width:1250px){
-    .centre{
-      height:800px
-    }
-
-      .design:before{
-  content:'';
-  border:0px solid #ffffff;
-  height:0px;
-  width:0px;
-  background:#4b595900;
-  z-index:5;
-  position:absolute;
-  left:-270px;
-  z-index:1;
-  top:-190px
-  }
-
-  .centre .img-centre{
-    width:800px
-  }
-
-
-    .centre div{
-  margin:15px;
-  width:800px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
-  }
 
  footer{
-  margin-top:-20px
+ 	margin-top:-20px
  }
+
+ .centre {
+ 	flex-direction:column;
+ 	height:auto
+ }
+
+
+  .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  height:340px;
+  width:800px;
+  z-index:5;
+  margin-left:0px;
+  margin-top:20px
+  }
+  
+  .design:before{
+	content:'';
+	border:0px solid #ffffff;
+	height:0px;
+	width:0px;
+	background:#4b595900;
+	z-index:5;
+	position:absolute;
+	left:-550px;
+	z-index:1;
+	top:-400px
+  }
+  
+  .design{
+	background:#242424;
+	position:absolute;
+	z-index:1
+  }
+  
+  .centre div:nth-child(3){
+	margin:15px;
+	width:800px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+  }
+
+    .centre div:nth-child(6){
+	margin:15px;
+	width:800px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+	}
+
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
+  height:340px;
+  width:800px;
+  z-index:5;
+  margin-left:0px;
+  position:static;
+  margin-top:100px
+  
+  }
+
+  .design2:before{
+	content:'';
+	border:0px solid #ffffff;
+	height:0px;
+	width:0px;
+	background:#32dfdf00;
+	z-index:5;
+	position:absolute;
+	left:20px;
+	z-index:1;
+	top:105px
+  }
+  
+  .design2{
+	background:#242424;
+	position:absolute;
+	z-index:1
+  }
+  
+
   }
 
 
@@ -256,9 +451,9 @@ footer{
   
   
   @media only screen and (max-width:1100px){
-  header{
-    position:absolute
-  }
+	header{
+	  position:absolute
+	}
   }
 
 
@@ -352,8 +547,8 @@ footer{
 
 
     @media only screen and (max-width:1000px){
-  header ul{
-    padding-left:200px; 
+	header ul{
+		padding-left:200px; 
   }
   
   }
@@ -388,6 +583,11 @@ footer{
     }
 
 
+    footer .sign{
+    	bottom:30px
+    }
+
+
     }
 
 
@@ -395,20 +595,13 @@ footer{
   @media only screen and (max-width:914px){
   
   
-  /*header > ul> li> a{
-  color: #FFF;
-  margin:0px 0px ;
-  padding:16px 70px;
-  outline:none;
-  background:#6191ba
-  }*/
   
   
   header > ul> li> a{
-  color: #FFF;
-  margin:0px 0px ;
-  padding:16px 70px;
-  outline:none
+	color: #FFF;
+	margin:0px 0px ;
+	padding:16px 70px;
+	outline:none
   }
   
   
@@ -447,64 +640,83 @@ footer{
   }
   }
 
-
   @media only screen and (max-width:853px){
-        .centre{
-      height:1000px
-    }
-
-      .design:before{
-  content:'';
-  border:0px solid #ffffff;
-  height:0px;
-  width:0px;
-  background:#4b595900;
+  	  .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  	width:700px;
+  	height:400px;
   z-index:5;
-  position:absolute;
-  left:-270px;
-  z-index:1;
-  top:-190px
+  margin-left:0px;
+  
+  }
+  
+ 
+  
+  .centre div:nth-child(3){
+	margin:15px;
+	width:700px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
   }
 
-  .centre .img-centre{
-    width:700px;
-    height:400px
-  }
+    .centre div:nth-child(6){
+	margin:15px;
+	width:700px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+	}
 
-
-    .centre div{
-  margin:15px;
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
+  height:400px;
   width:700px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
+  z-index:5;
+  margin-left:0px;
+  position:static;
+  margin-top:100px
+  
   }
 
+  .design2:before{
+	content:'';
+	border:0px solid #ffffff;
+	height:0px;
+	width:0px;
+	background:#32dfdf00;
+	z-index:5;
+	position:absolute;
+	left:20px;
+	z-index:1;
+	top:105px
   }
+  
+  .design2{
+	background:#242424;
+	position:absolute;
+	z-index:1
+  }
+  }
+
   
   @media only screen and (max-width:798px){
   
-  
-  
-  /*header > ul> li> a{
-  color: #FFF;
-  margin:0px 0px ;
-  padding:16px 50px;
-  outline:none;
-  background:#6191ba;
-  margin-right:5px
-  }*/
+ 
   
   
   
   header > ul> li> a{
-  color: #FFF;
-  margin:0px 0px ;
-  padding:16px 50px;
-  outline:none
+	color: #FFF;
+	margin:0px 0px ;
+	padding:16px 50px;
+	outline:none
   }
   
   }
@@ -551,61 +763,75 @@ footer{
 
 }
 
+
+
 @media only screen and (max-width:725px){
-          .centre{
-      height:1000px
-    }
-
-      .design:before{
-  content:'';
-  border:0px solid #ffffff;
-  height:0px;
-  width:0px;
-  background:#4b595900;
+	  .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  	width:600px;
+  	height:400px;
   z-index:5;
-  position:absolute;
-  left:-270px;
-  z-index:1;
-  top:-190px
+  margin-left:0px;
+  
+  }
+  
+ 
+  
+  .centre div:nth-child(3){
+	margin:15px;
+	width:600px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
   }
 
-  .centre .img-centre{
-    width:600px;
-    height:400px
-  }
+    .centre div:nth-child(6){
+	margin:15px;
+	width:600px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+	}
 
-
-    .centre div{
-  margin:15px;
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
+  height:400px;
   width:600px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
+  z-index:5;
+  margin-left:0px;
+  position:static;
+  margin-top:100px
+  
   }
+
 }
+
 
 
   
   
   @media only screen and (max-width:683px){
   
-    header ul{
-    padding-left:160px; 
+	  header ul{
+		padding-left:160px; 
   }
   
   }
   
   
   @media only screen and (max-width:650px){
-  img{
-    left:0
-  }
+	img{
+	  left:0
+	}
   
-  header ul{
-   padding-left:150px; 
+	header ul{
+	 padding-left:150px; 
   }
   
   }
@@ -613,16 +839,13 @@ footer{
   
   @media only screen and (max-width:640px){
   
-  .centre .banniere{
   
-  }
-  
-  header{
-   height:550px
-  }
+	header{
+	 height:550px
+	}
   
   #principal2 #submenu{
-  display:none
+	display:none
   }
   
   header > ul > li{
@@ -635,32 +858,22 @@ footer{
   
   
   img{
-  width:100%;
-  left:0;
-  right:0;
-  height:300px;
-  background:aliceblue
+	width:100%;
+	left:0;
+	right:0;
+	height:300px;
+	background:aliceblue
   }
   
   
-  /*header > ul> li> a{
-  color: #FFF;
-  margin:0px 0px ;
-  padding:20px 100px;
-  outline:none;
-  background:#6191ba;
-  margin-right:5px;
-  font-size:25px
-  }*/
-  
   
   header > ul> li> a{
-  color: #FFF;
-  margin:0px 0px ;
-  padding:20px 100px;
-  outline:none;
-  margin-right:5px;
-  font-size:25px
+	color: #FFF;
+	margin:0px 0px ;
+	padding:20px 100px;
+	outline:none;
+	margin-right:5px;
+	font-size:25px
   }
   
   
@@ -691,43 +904,51 @@ footer{
    
     }
 
-}
 
-@media only screen and (max-width:620px){
-
-            .centre{
-      height:1200px
-    }
-
-      .design:before{
-  content:'';
-  border:0px solid #ffffff;
-  height:0px;
-  width:0px;
-  background:#4b595900;
+     .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  	width:500px;
+  	height:400px;
   z-index:5;
-  position:absolute;
-  left:-270px;
-  z-index:1;
-  top:-190px
+  margin-left:0px;
+  
+  }
+  
+ 
+  
+  .centre div:nth-child(3){
+	margin:15px;
+	width:500px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
   }
 
-  .centre .img-centre{
-    width:500px;
-    height:400px
-  }
+    .centre div:nth-child(6){
+	margin:15px;
+	width:500px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+	}
 
-
-    .centre div{
-  margin:15px;
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
+  height:400px;
   width:500px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
+  z-index:5;
+  margin-left:0px;
+  position:static;
+  margin-top:100px
+  
   }
+
 }
 
   
@@ -781,38 +1002,49 @@ footer{
     }
 
 
-    .centre{
-      height:1300px
-    }
 
-      .design:before{
-  content:'';
-  border:0px solid #ffffff;
-  height:0px;
-  width:0px;
-  background:#4b595900;
+       .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  	width:350px;
+  	height:400px;
   z-index:5;
-  position:absolute;
-  left:-270px;
-  z-index:1;
-  top:-190px
+  margin-left:0px;
+  
+  }
+  
+ 
+  
+  .centre div:nth-child(3){
+	margin:15px;
+	width:350px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
   }
 
-  .centre .img-centre{
-    width:400px;
-    height:400px
-  }
+    .centre div:nth-child(6){
+	margin:15px;
+	width:350px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+	}
 
-
-    .centre div{
-  margin:15px;
-  width:400px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
+  height:400px;
+  width:350px;
+  z-index:5;
+  margin-left:0px;
+  position:static;
+  margin-top:100px
+  
   }
 
 
@@ -821,8 +1053,8 @@ footer{
 
 @media only screen and (max-width:460px){
   
-  header ul{
-   padding-left:80px; 
+	header ul{
+	 padding-left:80px; 
   }
   
 
@@ -831,8 +1063,8 @@ footer{
 
 @media only screen and (max-width:425px){
   
-  header ul{
-   padding-left:80px; 
+	header ul{
+	 padding-left:80px; 
   }
 
 
@@ -861,77 +1093,31 @@ footer{
     }
 
     footer p{
-      font-size:22px
+    	font-size:22px
     }
-
-
-
-
-    .centre{
-      height:1500px
-    }
- .centre .img-centre{
-    width:350px;
-    height:400px
-  }
-
-  .centre div{
-  margin:15px;
-  width:350px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
-  }
-
-
-  
 
 }
 
 
 @media only screen and (max-width:410px){
   
-  header ul{
-   padding-left:80px; 
+	header ul{
+	 padding-left:80px; 
   }
   
   header > ul> li> a{
-  color: #FFF;
-  margin:0px 0px ;
-  padding:20px 80px;
-  outline:none;
-  margin-right:5px;
-  font-size:25px
+	color: #FFF;
+	margin:0px 0px ;
+	padding:20px 80px;
+	outline:none;
+	margin-right:5px;
+	font-size:25px
   }
 
 }
 
 
 @media only screen and (max-width:377px){
-
-    .centre{
-      height:1700px
-    }
- .centre .img-centre{
-    width:300px;
-    height:400px
-  }
-
-  .centre div{
-  margin:15px;
-  width:300px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
-  }
-
-
     .bars div{ 
       width:300px;
       margin-top:30px;
@@ -957,40 +1143,69 @@ footer{
     }
 
 footer{
-  height:1100px
+	height:1100px
 }
 
+
+    .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  	width:300px;
+  	height:400px;
+  z-index:5;
+  margin-left:0px;
+  
+  }
+  
+ 
+  
+  .centre div:nth-child(3){
+	margin:15px;
+	width:300px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+  }
+
+    .centre div:nth-child(6){
+	margin:15px;
+	width:300px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+	}
+
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
+  height:400px;
+  width:300px;
+  z-index:5;
+  margin-left:0px;
+  position:static;
+  margin-top:100px
+  
+  }
+
+
+
 }
+
+
 
 @media only screen and (max-width:367px){
-  header ul{
-   padding-left:55px; 
+	header ul{
+	 padding-left:55px; 
   }
 
 }
 
 
 @media only screen and (max-width:340px){
-
-     .centre{
-      height:1900px
-    }
- .centre .img-centre{
-    width:270px;
-    height:400px
-  }
-
-  .centre div{
-  margin:15px;
-  width:270px;
-  margin:auto;
-  margin-top:20px;
-   font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  line-height:1.6;
-  color:#3f3f3f;
-  font-size:22px
-  }
-
 
 
     .bars div{ 
@@ -1018,19 +1233,65 @@ footer{
     }
 
     footer{
-      height:1000px
+    	height:1000px
     }
+
+
+        .img-centre{
+  background:center/cover no-repeat url('/static/img/ordi1.jpg');
+  	width:270px;
+  	height:400px;
+  z-index:5;
+  margin-left:0px;
+  
+  }
+  
+ 
+  
+  .centre div:nth-child(3){
+	margin:15px;
+	width:270px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+  }
+
+    .centre div:nth-child(6){
+	margin:15px;
+	width:270px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:22px
+	}
+
+    .img-centre2{
+  background:center/cover no-repeat url('/static/img/voiture1.jpg');
+  height:400px;
+  width:270px;
+  z-index:5;
+  margin-left:0px;
+  position:static;
+  margin-top:100px
+  
+  }
+
 
 
 }
 
 
 @media only screen and (max-width:325px){
-  header ul{
-   padding-left:30px; 
+	header ul{
+	 padding-left:30px; 
   }
 
-  
+	
 }
 
 
