@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .forms import MessageForm
+from django.http import HttpResponseRedirect
 
 
 # Create your views here.
@@ -37,15 +38,17 @@ def contact(request):
 
     if request.method == 'POST':
         form: MessageForm = MessageForm(request.POST)
+        
         if form.is_valid():
-            form.save()
+            form.save(),
             return render(request, 'html/merci.html', context)
+            #return HttpResponseRedirect('/thanks/',context)
 
         else:
             context['errors'] = form.errors.items()
 
     else:
         form = MessageForm()
-        context['form'] = form
+        context['form']= form
 
     return render(request, 'html/contact.html', context)
