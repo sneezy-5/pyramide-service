@@ -1,51 +1,112 @@
-header > ul>li:nth-child(2){
+#submenu li:nth-child(4){
   background:#83b5dc;
 }
-
-#principal2:hover::before{
-content:'';
-position:absolute;
-height:3px;
-width:120px;
-background:#ffffff;
-left:55px;
-top:0px;
-animation:der 1s
-}
-
-#principal2::before{
+  
+  
+  #principal:hover::before{
   content:'';
-position:absolute;
-height:3px;
-width:120px;
-background:#ffffff;
-left:55px;
-top:0px;
-}
-
-@keyframes der{
-  0%{
-content:'';
-position:absolute;
-height:3px;
-width:0px;
-background:#ffffff;
-left:55px;
-top:0px;
+  position:absolute;
+  height:3px;
+  width:120px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+  animation:der 1s
   }
-
-100%{
-content:'';
-position:absolute;
-height:3px;
-width:120px;
-background:#ffffff;
-left:55px;
-top:0px;
-}
-}
-
-
+  
+  /*#principal:before{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:120px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+  animation:der 1s
+  }*/
+  
+  
+  @keyframes der{
+	0%{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:0px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+	}
+  
+  100%{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:120px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+  }
+  }
+  
+  
+  #principal2:hover::before{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:120px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+  animation:der 1s
+  }
+  
+  #principal2::before{
+	content:'';
+  position:absolute;
+  height:3px;
+  width:120px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+  }
+  
+  #principal3:hover::before{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:120px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+  animation:der 1s
+  }
+  
+  
+  /*#principal3:before{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:120px;
+  background:#ffffff;
+  left:55px;
+  top:0px;
+  }*/
+  
+  #principal2 #submenu{
+	   background-color: rgb(76 152 206);
+	 animation:lent 0.5s
+  }
+  
+  @keyframes lent{
+	0%{
+	  opacity:0
+	}
+  
+	100%{
+	  opacity:1
+	}
+  }
+  
 
   
 .banniere{

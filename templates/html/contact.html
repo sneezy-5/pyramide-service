@@ -46,21 +46,21 @@
          {% csrf_token %}
          <span id="error"></span>
          <div class="form-group  {% if form.nomPrenom.errors %}has-warning has-feedback{% endif %}">
-            {% render_field form.nomPrenom  placeholder=" nom et prenom"  id="cas1"%}
+            {% render_field form.nomPrenom  placeholder=" Nom et Prenom"  id="cas1"%}
         </div>
         
          <span id="error2"></span>
          <div class="form-group  {% if form.email.errors %}has-warning has-feedback{% endif %}">
-            {% render_field form.Email  placeholder=" votre Email" id="cas2"%}
+            {% render_field form.Email  placeholder=" Votre Email" id="cas2"%}
         </div>
 
          <span id="error3"></span>
          <div class="form-group  {% if form.sujet.errors %}has-warning has-feedback{% endif %}">
-            {% render_field form.sujet  placeholder=" sujet " id="cas3"%}
+            {% render_field form.sujet  placeholder=" Sujet " id="cas3"%}
         </div>
          <span id="error4"></span>
          <div class="form-group  {% if form.message.errors %}has-warning has-feedback{% endif %}">
-            {% render_field form.message  placeholder=" message" id="cas4"%}
+            {% render_field form.message  placeholder=" Message" id="cas4"%}
         </div>
          
          <input type="submit" value="envoyer" >

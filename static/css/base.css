@@ -98,12 +98,13 @@ header a{
     font-family:sans-serif;
     padding:10px 90px;
     margin-top:1px;
-    width:90px;
+    width:150px;
     background:#9ec5e426;
     font-weight:600;
     transition:0.2s;
     white-space:nowrap
 }
+
 
 
 #submenu li a:hover{
