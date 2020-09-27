@@ -212,36 +212,7 @@ header >ul>li:nth-child(3){
     
     
     }
-    
-    /*@media only screen and (max-width:575px){
-    
-    
-    
-    header > ul > li{
-    display:block;
-     position: relative;
-     height:80px;
-     top:290px;
-     left:3px
-    }
-    
-    
-    }
-    
-    
-    @media only screen and (max-width:575px){
-    
-    
-    
-    header > ul > li{
-    display:block;
-     position: relative;
-     height:80px;
-     top:290px;
-     left:-30px
-    }
-    
-    }*/
+
     
     
     @media only screen and (max-width:575px){

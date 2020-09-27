@@ -58,15 +58,6 @@ header >ul>li:nth-child(2){
   }
   
   
-  /*#principal3:before{
-  content:'';
-  position:absolute;
-  height:3px;
-  width:120px;
-  background:#ffffff;
-  left:55px;
-  top:0px;
-  }*/
   
   #principal2 #submenu{
 	   background-color: rgb(76 152 206);
@@ -787,7 +778,7 @@ header >ul>li:nth-child(2){
    .cas1{
 	height:530px;
 	width:400px;
-	  background:center/cover no-repeat url('img/battiment1.jpg');
+	  background:center/cover no-repeat url('/static/img/battiment1.jpg');
 	  margin:auto;
 	  margin-left:auto;
 	  margin-top:60px;
@@ -884,7 +875,7 @@ header >ul>li:nth-child(2){
 	.cas2{
 	height:450px;
 	width:400px;
-	  background:center/cover no-repeat url('img/froid1.jpg');
+	  background:center/cover no-repeat url('/static/img/froid1.jpg');
 	  margin:auto;
 	  margin-right:90px;
 	  margin-top:350px;
@@ -894,12 +885,12 @@ header >ul>li:nth-child(2){
 			 
 		@keyframes diapo2{
 			0%{
-			  background:center/cover no-repeat url("img/froid1.jpg");
+			  background:center/cover no-repeat url("/static/img/froid1.jpg");
 		  }
 		  
 		  
 		  50%{
-			  background:center/cover no-repeat  url("img/froid2.jpg");
+			  background:center/cover no-repeat  url("/static/img/froid2.jpg");
 		  }
 		  
 		  }
@@ -1106,7 +1097,7 @@ header >ul>li:nth-child(2){
 	  .img-responsive1{
 		  height:400px;
 		  width:200px;
-		  background:center/cover no-repeat url("img/battiment1.jpg");
+		  background:center/cover no-repeat url("/static/img/battiment1.jpg");
 		  width:45%;
 		  margin-top:auto;
 		  animation:diapo-respon1 15s infinite;
@@ -1114,12 +1105,12 @@ header >ul>li:nth-child(2){
   
 			@keyframes diapo-respon1{
 			0%{
-			  background:center/cover no-repeat url("img/battiment1.jpg");
+			  background:center/cover no-repeat url("/static/img/battiment1.jpg");
 		  }
 		  
 		  
 		  50%{
-			  background:center/cover no-repeat  url("img/battiment2.jpg");
+			  background:center/cover no-repeat  url("/static/img/battiment2.jpg");
 		  }
 		  
 		  }
@@ -1202,7 +1193,7 @@ header >ul>li:nth-child(2){
 	  .img-responsive2{
 		  height:400px;
 		  width:200px;
-		  background:center/cover no-repeat url("img/froid1.jpg");
+		  background:center/cover no-repeat url("/static/img/froid1.jpg");
 		  width:45%;
 		  margin-top:auto;
 		  animation:diapo-respon2 15s infinite;
@@ -1213,12 +1204,12 @@ header >ul>li:nth-child(2){
 				 
 		@keyframes diapo-respon2{
 			0%{
-			  background:center/cover no-repeat url("img/froid1.jpg");
+			  background:center/cover no-repeat url("/static/img/froid1.jpg");
 		  }
 		  
 		  
 		  50%{
-			  background:center/cover no-repeat  url("img/froid2.jpg");
+			  background:center/cover no-repeat  url("/static/img/froid2.jpg");
 		  }
 		  
 		  }
@@ -1627,7 +1618,7 @@ header >ul>li:nth-child(2){
 	
 	.centre a:nth-child(2):hover{
 	transform:scale(1);
-	background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/battiment.jpg');
+	background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/battiment.jpg');
 	}
 	
 	
@@ -1956,7 +1947,7 @@ header >ul>li:nth-child(2){
 	
 	.centre a:nth-child(2):hover{
 	transform:scale(0);
-	background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('img/battiment.jpg');
+	background:linear-gradient(to bottom, #00000063,#00000059),center/cover no-repeat url('/static/img/battiment.jpg');
 	}
 	
 	
