@@ -5733,7 +5733,7 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:200px;
 			width:200px;
-			background:center/cover no-repeat url('img/directeur.JPG');
+			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
 			bottom:883px;
 			transition:1s
@@ -5778,7 +5778,7 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:200px;
 			width:200px;
-			background:center/cover no-repeat url('img/equipe1.JPG');
+			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
 			bottom:542px;
 			transition:1s
@@ -5819,7 +5819,7 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:200px;
 			width:200px;
-			background:center/cover no-repeat url('img/equipe2.JPG');
+			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
 			bottom:212px;
 			transition:1s
@@ -6144,7 +6144,7 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:200px;
 			width:200px;
-			background:center/cover no-repeat url('img/directeur.JPG');
+			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
 			bottom:883px;
 			transition:1s
@@ -6189,7 +6189,7 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:200px;
 			width:200px;
-			background:center/cover no-repeat url('img/equipe1.JPG');
+			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
 			bottom:542px;
 			transition:1s
@@ -6230,7 +6230,7 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:200px;
 			width:200px;
-			background:center/cover no-repeat url('img/equipe2.JPG');
+			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
 			bottom:212px;
 			transition:1s
