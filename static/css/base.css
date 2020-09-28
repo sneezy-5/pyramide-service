@@ -1,12 +1,12 @@
 body{
-  padding: 0px;
-  margin: 0px;
-  font-family:sans-serif;
-   background:#d2dde5;
-  height:2900px
-
-}
-
+	padding: 0px;
+	margin: 0px;
+	font-family:sans-serif;
+	 background:#ededed;
+	height:2963px
+  
+  }
+  
 header{
 
   background:linear-gradient(to left, #4c98ce,#4c98cf,#ffffff);

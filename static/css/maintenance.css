@@ -1,3 +1,12 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family:sans-serif;
+	background:#d1d1d12e;
+	height:1400px
+  
+  }
+
 #submenu li:nth-child(4){
   background:#83b5dc;
 }
