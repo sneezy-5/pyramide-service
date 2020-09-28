@@ -1,3 +1,13 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family:sans-serif;
+	 background:#ededed;
+	height:2963px
+  
+  }
+
+
 header >ul>li:nth-child(1){
 	background:#83b5dc
   }
