@@ -73,12 +73,12 @@ header >ul>li:nth-child(2){
 	  opacity:1
 	}
   }
+ 
+  /*debut de code*/
   
- /*debut de code*/
-  
- .banniere{
-	height: 400px;
-	background:linear-gradient(to right, #ffffff5c, #fcfcfc),center/cover no-repeat url('/static/img/etienne-girardet-sgYamIzhAhg-unsplash.jpg');
+  .banniere{
+	height: 500px;
+	background:linear-gradient(to right, #dddbdb00,#ffffffd6),center/cover no-repeat url('/static/img/etienne-girardet-sgYamIzhAhg-unsplash.jpg');
 	z-index:6;
 	display:flex;
 	flex-direction:column;
@@ -144,7 +144,7 @@ header >ul>li:nth-child(2){
 		.centre nav:nth-child(1){
 		  color:#6a6a6a;
 		  position:absolute;
-		  top:500px;
+		  top:600px;
 		  width:500px;
 		  right:20px;
 		   line-height:1.6;
@@ -2491,6 +2491,10 @@ header >ul>li:nth-child(2){
 	
 	
 	@media only screen and (max-width:640px){
+  
+		.banniere{
+			height:400px
+		}
 	
 	  header{
 	   height:550px

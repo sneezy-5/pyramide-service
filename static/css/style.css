@@ -47,9 +47,11 @@ header >ul>li:nth-child(1){
 	}
 	}
 
+	
+  
 	.banniere{
 		height: 500px;
-		background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('/static/img/acceuil.jpg');
+		background:linear-gradient(to right, #dddbdb00,#ffffffd6) ,center/cover no-repeat url('/static/img/acceuil.jpg');
 		display:flex;
 		flex-direction:column;
 		align-items:flex-end;
@@ -620,6 +622,19 @@ header >ul>li:nth-child(1){
 			}
 		
 		
+			  /*.centre nav::before:nth-child(2){
+			  content:'';
+			  position:absolute;
+			  height:3px;
+			  width:100px;
+			  background:#325874;
+			  top:-10px
+			}*/
+		
+			/*footer*/
+		
+		
+		
 			footer{
 			  height:500px;
 			  display:-webkit-box;
@@ -712,7 +727,7 @@ header >ul>li:nth-child(1){
 		
 	  
 			.equipe{
-			height:400px;
+			height:500px;
 			width:100%;
 			background:#d5dde5;
 			margin-top:150px;
@@ -765,7 +780,7 @@ header >ul>li:nth-child(1){
 			width:250px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:75px;
+			bottom:125px;
 			transition:1s
 		 
 			 }
@@ -780,12 +795,13 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-40px;
-	  font-size:25px;
+	  margin-bottom:-85px;
+	  font-size:16px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
 		 color:#4d4d4d;
 		 letter-spacing:1px;
+		 margin-left:55px
 			}
 	  
 			.rond2{
@@ -810,7 +826,7 @@ header >ul>li:nth-child(1){
 			width:250px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:75px;
+			bottom:125px;
 			transition:1s
 		 
 			 }
@@ -822,12 +838,13 @@ header >ul>li:nth-child(1){
 	  
 	  
 				.rond2 p{
-	  margin-bottom:-40px;
-	  font-size:25px;
+	  margin-bottom:-85px;
+	  font-size:16px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
 		 color:#4d4d4d;
 		 letter-spacing:1px;
+		 margin-right:-150px
 			}	  
 		
 		  .rond3{
@@ -852,7 +869,7 @@ header >ul>li:nth-child(1){
 			width:250px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:75px;
+			bottom:125px;
 			transition:1s
 		 
 			 }
@@ -865,12 +882,13 @@ header >ul>li:nth-child(1){
 	  
 	  
 		  .rond3 p{
-	  margin-bottom:-40px;
-	  font-size:25px;
+	  margin-bottom:-85px;
+	  font-size:16px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
 		 color:#4d4d4d;
 		 letter-spacing:1px;
+		 margin-left:60px
 	  }
 	  /*responsive*/
 	  
@@ -981,6 +999,10 @@ header >ul>li:nth-child(1){
 	  
 		/*equipe*/
 	  
+		.centre{
+			height:2000px
+		}
+	  
 	  
 	   .equipe{
 			height:400px;
@@ -995,7 +1017,7 @@ header >ul>li:nth-child(1){
 			.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:1950px;
+			  top:2020px;
 			  width:500px;
 				left:50px;
 			   line-height:1.6;
@@ -1034,8 +1056,9 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:150px;
 			width:150px;
+			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:125px;
+			bottom:140px;
 			transition:1s
 		 
 			 }
@@ -1050,13 +1073,14 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-40px;
-	  font-size:23px;
+	  margin-bottom:-92px;
+	  font-size:14px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-		 font-weight:600;
-		 color:#4d4d4d;
+		 font-weight:400;
+		 color:#343434;
 		 letter-spacing:1px;
-		 white-space:nowrap
+	  margin-left:40px;
+	  
 			}
 	  
 			.rond2{
@@ -1079,8 +1103,9 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:150px;
 			width:150px;
+			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:125px;
+			bottom:140px;
 			transition:1s
 		 
 			 }
@@ -1091,13 +1116,13 @@ header >ul>li:nth-child(1){
 	  
 	  
 				.rond2 p{
-	  margin-bottom:-40px;
-	  font-size:23px;
+	  margin-bottom:-85px;
+	  font-size:14px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-		 font-weight:600;
-		 color:#4d4d4d;
+		 font-weight:400;
+		 color:#343434;
 		 letter-spacing:1px;
-		 white-space:nowrap
+		 margin-left:-20px
 			}	  
 		
 		  .rond3{
@@ -1120,8 +1145,9 @@ header >ul>li:nth-child(1){
 			 position:absolute;
 			height:150px;
 			width:150px;
+			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:125px;
+			bottom:140px;
 			transition:1s
 		 
 		 
@@ -1135,13 +1161,13 @@ header >ul>li:nth-child(1){
 	  
 	  
 		  .rond3 p{
-	  margin-bottom:-40px;
-	  font-size:23px;
+	  margin-bottom:-90px;
+	  font-size:14px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-		 font-weight:600;
+		 font-weight:400;
 		 color:#4d4d4d;
 		 letter-spacing:1px;
-		 white-space:nowrap
+		 margin-left:40px
 	  }
 	  
 		/*fin equipe*/
@@ -1539,7 +1565,7 @@ header >ul>li:nth-child(1){
 	  
 	  
 			.equipe{
-		   height:1250px;
+		   height:1350px;
 		   flex-direction:column;
 		   margin-top:550px
 	  
@@ -1550,14 +1576,14 @@ header >ul>li:nth-child(1){
 				 .centre{
 			  flex-direction:column;
 			  flex-wrap:wrap;
-			  height:5350px;
+			  height:5390px;
 			}
 	  
 	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:4350px;
+			  top:4300px;
 			  width:500px;
 				left:50px;
 			   line-height:1.6;
@@ -1583,8 +1609,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -1598,7 +1623,7 @@ header >ul>li:nth-child(1){
 			width:250px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:1147px;
+			bottom:1240.55px;
 			transition:1s
 		 
 			 }
@@ -1613,20 +1638,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:33px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  margin-left:60px;
+	  margin-right:-20px
 			}
+			
 	  
 			.rond2{
 		   height:300px;
 			width:300px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -1643,7 +1671,7 @@ header >ul>li:nth-child(1){
 			width:250px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:723px;
+			bottom:773px;
 			transition:1s
 		 
 			 }
@@ -1654,11 +1682,11 @@ header >ul>li:nth-child(1){
 	  
 	  
 				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:33px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 			}	  
 		
@@ -1667,8 +1695,8 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -1684,7 +1712,7 @@ header >ul>li:nth-child(1){
 			width:250px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:310px;
+			bottom:305.55px;
 			transition:1s
 		 
 		 
@@ -1698,11 +1726,11 @@ header >ul>li:nth-child(1){
 	  
 	  
 		  .rond3 p{
-	  margin-bottom:-60px;
-	  font-size:33px;
+	  margin-bottom:-95px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 	  }
 	  
@@ -2264,11 +2292,19 @@ header >ul>li:nth-child(1){
 	  
 	  
 	  
-			.equipe{
-		   height:1250px;
+			 .equipe{
+		   height:1350px;
 		   flex-direction:column;
 		   margin-top:550px
 	  
+			}
+	  
+	  
+	  
+				 .centre{
+			  flex-direction:column;
+			  flex-wrap:wrap;
+			  height:5080px;
 			}
 	  
 	  
@@ -2301,8 +2337,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -2316,7 +2351,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:1037.55px;
+			bottom:1150.5px;
 			transition:1s
 		 
 			 }
@@ -2331,20 +2366,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  margin-left:60px;
+	  margin-right:-20px
 			}
+			
 	  
 			.rond2{
 		   height:300px;
 			width:300px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -2361,7 +2399,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:613.55px;
+			bottom:682.5px;
 			transition:1s
 		 
 			 }
@@ -2372,11 +2410,11 @@ header >ul>li:nth-child(1){
 	  
 	  
 				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 			}	  
 		
@@ -2385,8 +2423,8 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -2402,7 +2440,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:200px;
+			bottom:216px;
 			transition:1s
 		 
 		 
@@ -2416,11 +2454,11 @@ header >ul>li:nth-child(1){
 	  
 	  
 		  .rond3 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-95px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 	  }
 	  
@@ -2709,18 +2747,21 @@ header >ul>li:nth-child(1){
 	  }
 	  
 	  
-		.equipe{
-		   height:1250px;
+	   
+			 .equipe{
+		   height:1350px;
 		   flex-direction:column;
-		   margin-top:550px
+		   margin-top:350px
 	  
 			}
+	  
+	  
 	  
 	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:4620px;
+			  top:4480px;
 			  width:500px;
 				left:50px;
 			   line-height:1.6;
@@ -2746,8 +2787,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -2761,7 +2801,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:988px;
+			bottom:1160px;
 			transition:1s
 		 
 			 }
@@ -2776,20 +2816,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  margin-left:60px;
+	  margin-right:-20px
 			}
+			
 	  
 			.rond2{
 		   height:300px;
 			width:300px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -2806,7 +2849,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:564px;
+			bottom:692px;
 			transition:1s
 		 
 			 }
@@ -2816,12 +2859,13 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 			}	  
 		
@@ -2830,8 +2874,8 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -2847,7 +2891,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:150px;
+			bottom:225.55px;
 			transition:1s
 		 
 		 
@@ -2861,13 +2905,14 @@ header >ul>li:nth-child(1){
 	  
 	  
 		  .rond3 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-95px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 	  }
+	  
 	  
 	  
 	   .centre nav:nth-child(1){
@@ -2880,7 +2925,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:700px;
 				  left:50px;
-				  top:1480px;
+				  top:1540px;
 				  font-size:18px
 				}
 	  
@@ -3100,7 +3145,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:600px;
 				  left:50px;
-				  top:1480px;
+				  top:1540px;
 				  font-size:18px
 				}
 	  
@@ -3138,18 +3183,21 @@ header >ul>li:nth-child(1){
 	  
 		@media only screen and (max-width:720px){
 	  
-		.equipe{
-		   height:1250px;
+	  
+			 .equipe{
+		   height:1350px;
 		   flex-direction:column;
-		   margin-top:550px
+		   margin-top:350px
 	  
 			}
+	  
+	  
 	  
 	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:4680px;
+			  top:4480px;
 			  width:500px;
 				left:50px;
 			   line-height:1.6;
@@ -3175,8 +3223,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -3190,7 +3237,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:928px;
+			bottom:1100px;
 			transition:1s
 		 
 			 }
@@ -3205,20 +3252,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  margin-left:60px;
+	  margin-right:-20px
 			}
+			
 	  
 			.rond2{
 		   height:300px;
 			width:300px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -3235,7 +3285,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:503.88px;
+			bottom:633px;
 			transition:1s
 		 
 			 }
@@ -3245,12 +3295,13 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 			}	  
 		
@@ -3259,8 +3310,8 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -3276,7 +3327,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:90px;
+			bottom:166px;
 			transition:1s
 		 
 		 
@@ -3290,11 +3341,11 @@ header >ul>li:nth-child(1){
 	  
 	  
 		  .rond3 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-95px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 	  }
 	  
@@ -3309,7 +3360,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:550px;
 				  left:58px;
-				  top:1460px;
+				  top:1520px;
 				  font-size:17px
 				}
 	  
@@ -3553,7 +3604,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:550px;
 				  left:58px;
-				  top:1970px;
+				  top:2015px;
 				  font-size:17px
 				}
 	  
@@ -3561,7 +3612,7 @@ header >ul>li:nth-child(1){
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:5200px;
+			  top:5040px;
 			  width:500px;
 				left:50px;
 			   line-height:1.6;
@@ -3640,22 +3691,24 @@ header >ul>li:nth-child(1){
 	  
 	  
 	  .centre{
-		  height:5700px
+		  height:5900px
 	  }
 	  
 	  
-			 .equipe{
-		   height:1250px;
+		   .equipe{
+		   height:1350px;
 		   flex-direction:column;
-		   margin-top:300px
+		   margin-top:350px
 	  
 			}
+	  
+	  
 	  
 	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:5350px;
+			  top:5440px;
 			  width:500px;
 				left:50px;
 			   line-height:1.6;
@@ -3663,7 +3716,7 @@ header >ul>li:nth-child(1){
 			  font-size:16px;
 			  font-weight:400;
 			  font-style:italic;
-			  z-index:10000
+			  
 			}
 	  
 			.equipe span:before{
@@ -3681,8 +3734,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -3696,7 +3748,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:953.55555px;
+			bottom:1100px;
 			transition:1s
 		 
 			 }
@@ -3711,20 +3763,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:27px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  margin-left:60px;
+	  margin-right:-20px
 			}
+			
 	  
 			.rond2{
 		   height:300px;
 			width:300px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -3741,7 +3796,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:529.5555px;
+			bottom:633px;
 			transition:1s
 		 
 			 }
@@ -3751,12 +3806,13 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 			}	  
 		
@@ -3765,8 +3821,8 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -3782,7 +3838,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:114px;
+			bottom:166px;
 			transition:1s
 		 
 		 
@@ -3796,11 +3852,11 @@ header >ul>li:nth-child(1){
 	  
 	  
 		  .rond3 p{
-	  margin-bottom:-60px;
-	  font-size:30px;
+	  margin-bottom:-95px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 	  }
 	  
@@ -4042,7 +4098,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:450px;
 				  left:58px;
-				  top:2090px;
+				  top:2110px;
 				  font-size:16px
 				}
 	  
@@ -4071,23 +4127,22 @@ header >ul>li:nth-child(1){
 		@media only screen and  (max-width:570px){
 		
 	  
-	  .centre{
-		  height:5700px
-	  }
 	  
 	  
-			 .equipe{
-		   height:1250px;
+		   .equipe{
+		   height:1350px;
 		   flex-direction:column;
-		   margin-top:300px
+		   margin-top:350px
 	  
 			}
+	  
+	  
 	  
 	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:5270px;
+			  top:5340px;
 			  width:400px;
 				left:50px;
 			   line-height:1.6;
@@ -4095,7 +4150,7 @@ header >ul>li:nth-child(1){
 			  font-size:16px;
 			  font-weight:400;
 			  font-style:italic;
-			  z-index:10000
+			  
 			}
 	  
 			.equipe span:before{
@@ -4113,8 +4168,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -4128,7 +4182,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:1053px;
+			bottom:1200px;
 			transition:1s
 		 
 			 }
@@ -4143,20 +4197,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:25px;
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  margin-left:60px;
+	  margin-right:-20px
 			}
+			
 	  
 			.rond2{
 		   height:300px;
 			width:300px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -4173,7 +4230,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:628px;
+			bottom:733px;
 			transition:1s
 		 
 			 }
@@ -4183,12 +4240,13 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:25px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:18px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 			}	  
 		
@@ -4197,8 +4255,8 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -4214,7 +4272,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:214px;
+			bottom:266px;
 			transition:1s
 		 
 		 
@@ -4226,11 +4284,17 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-			 .rond3 p{
-				 font-size:25px
-			 }
 	  
+		  .rond3 p{
+	  margin-bottom:-95px;
+	  font-size:18px;
+		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		 font-weight:600;
+		 color:#343434;
+		 letter-spacing:1px;
+	  }
 	  
+		
 	  
 	  
 		.img-responsive{
@@ -4437,7 +4501,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:400px;
 				  left:58px;
-				  top:2180px;
+				  top:2210px;
 				  font-size:16px
 				}
 	  
@@ -4712,7 +4776,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:350px;
 				  left:58px;
-				  top:2180px;
+				  top:2210px;
 				  font-size:15px
 				}
 		}
@@ -4806,24 +4870,25 @@ header >ul>li:nth-child(1){
 		@media only screen and (max-width:475px){
 	  
 	  
-	  
 	  .centre{
-		  height:5700px
+		  height:auto
 	  }
 	  
 	  
-			 .equipe{
-		   height:1250px;
+			   .equipe{
+		   height:1350px;
 		   flex-direction:column;
 		   margin-top:300px
 	  
 			}
 	  
 	  
+	  
+	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:5270px;
+			  top:5100px;
 			  width:250px;
 				left:50px;
 			   line-height:1.6;
@@ -4831,7 +4896,7 @@ header >ul>li:nth-child(1){
 			  font-size:16px;
 			  font-weight:400;
 			  font-style:italic;
-			  z-index:10000
+			  
 			}
 	  
 			.equipe span:before{
@@ -4849,8 +4914,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -4864,7 +4928,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:1053px;
+			bottom:1040px;
 			transition:1s
 		 
 			 }
@@ -4879,20 +4943,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:25px;
+	  margin-bottom:-100px;
+	  font-size:17px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  margin-left:60px;
+	  margin-right:-20px
 			}
+			
 	  
 			.rond2{
 		   height:300px;
 			width:300px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -4909,7 +4976,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:628px;
+			bottom:574px;
 			transition:1s
 		 
 			 }
@@ -4919,12 +4986,13 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:25px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:17px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
 			}	  
 		
@@ -4933,8 +5001,8 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -4950,7 +5018,7 @@ header >ul>li:nth-child(1){
 			width:300px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:214px;
+			bottom:106px;
 			transition:1s
 		 
 		 
@@ -4962,11 +5030,17 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-			 .rond3 p{
-				 font-size:25px
-			 }
 	  
+		  .rond3 p{
+	  margin-bottom:-95px;
+	  font-size:17px;
+		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		 font-weight:600;
+		 color:#343434;
+		 letter-spacing:1px;
+	  }
 	  
+		
 	  
 		.img-responsive{
 				height:300px;
@@ -5270,29 +5344,32 @@ header >ul>li:nth-child(1){
 	  
 		@media only screen and (max-width:420px){
 	  .centre{
-		  height:4580px
+		  height:4600px
 	  }
 	  
-		   .equipe{
-		   height:1000px;
+		   
+			   .equipe{
+		   height:1100px;
 		   flex-direction:column;
 		   margin-top:300px
 	  
 			}
 	  
 	  
+	  
+	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:4300px;
+			  top:4250px;
 			  width:250px;
 				left:50px;
 			   line-height:1.6;
 			  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-			  font-size:16px;
+			  font-size:14px;
 			  font-weight:400;
 			  font-style:italic;
-			  z-index:10000
+			  
 			}
 	  
 			.equipe span:before{
@@ -5310,8 +5387,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -5325,7 +5401,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:940px;
+			bottom:1040px;
 			transition:1s
 		 
 			 }
@@ -5340,20 +5416,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:20px;
+	  margin-bottom:-100px;
+	  font-size:15px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+		 margin-left:20px;
+	  margin-right:-50px
 			}
+			
 	  
 			.rond2{
 		   height:200px;
 			width:200px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -5370,7 +5449,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:600px;
+			bottom:657px;
 			transition:1s
 		 
 			 }
@@ -5380,13 +5459,15 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:20px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:15px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+		 margin-left:-50px
 			}	  
 		
 		  .rond3{
@@ -5394,8 +5475,8 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -5411,7 +5492,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:269px;
+			bottom:271px;
 			transition:1s
 		 
 		 
@@ -5423,10 +5504,19 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-			 .rond3 p{
-				 font-size:20px
-			 }
 	  
+		  .rond3 p{
+	  margin-bottom:-100px;
+	  font-size:15px;
+		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		 font-weight:600;
+		 color:#343434;
+		 letter-spacing:1px;
+		 margin-left:20px;
+	  margin-right:-50px
+	  }
+	  
+		
 	  
 		.img-responsive{
 				height:200px;
@@ -5630,7 +5720,7 @@ header >ul>li:nth-child(1){
 				.centre nav:nth-child(2){
 				  width:250px;
 				  left:58px;
-				  top:2680px;
+				  top:2640px;
 				  font-size:10px
 				}
 	  
@@ -5682,19 +5772,20 @@ header >ul>li:nth-child(1){
 	  
 	  
 	  
-	  
-		   .equipe{
-		   height:1000px;
+		 .equipe{
+		   height:1100px;
 		   flex-direction:column;
 		   margin-top:300px
 	  
 			}
 	  
 	  
+	  
+	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:4380px;
+			  top:4340px;
 			  width:250px;
 				left:50px;
 			   line-height:1.6;
@@ -5702,7 +5793,7 @@ header >ul>li:nth-child(1){
 			  font-size:14px;
 			  font-weight:400;
 			  font-style:italic;
-			  z-index:10000
+			  
 			}
 	  
 			.equipe span:before{
@@ -5720,8 +5811,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -5735,7 +5825,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:883px;
+			bottom:982px;
 			transition:1s
 		 
 			 }
@@ -5750,20 +5840,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:18px;
+	  margin-bottom:-100px;
+	  font-size:13px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+		 margin-left:40px;
+	  margin-right:-50px
 			}
+			
 	  
 			.rond2{
 		   height:200px;
 			width:200px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -5780,7 +5873,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:542px;
+			bottom:598px;
 			transition:1s
 		 
 			 }
@@ -5790,13 +5883,15 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:18px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:13px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+		 margin-left:-65px
 			}	  
 		
 		  .rond3{
@@ -5804,8 +5899,8 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -5821,7 +5916,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:212px;
+			bottom:215px;
 			transition:1s
 		 
 		 
@@ -5833,10 +5928,17 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-			 .rond3 p{
-				 font-size:18px
-			 }
 	  
+		  .rond3 p{
+	  margin-bottom:-100px;
+	  font-size:13px;
+		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		 font-weight:600;
+		 color:#343434;
+		 letter-spacing:1px;
+		 margin-left:20px;
+	  margin-right:-50px
+	  }
 	  
 	  
 		.img-responsive{
@@ -6094,26 +6196,29 @@ header >ul>li:nth-child(1){
 	  
 	  
 	  
-		   .equipe{
-		   height:1000px;
+		  
+		 .equipe{
+		   height:1100px;
 		   flex-direction:column;
 		   margin-top:300px
 	  
 			}
 	  
 	  
+	  
+	  
 				.equipe span{
 				position:absolute;
 			  color:#6a6a6a;
-			  top:4380px;
-			  width:250px;
-				left:15px;
+			  top:4340px;
+			  width:150px;
+				left:50px;
 			   line-height:1.6;
 			  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-			  font-size:10px;
+			  font-size:14px;
 			  font-weight:400;
 			  font-style:italic;
-			  z-index:10000
+			  
 			}
 	  
 			.equipe span:before{
@@ -6131,8 +6236,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background: #b7d3eb;
 			border-radius:10000px;
-			margin-top:auto;
-			margin-bottom:auto;
+			 margin-bottom:auto;
 			display:flex;
 			justify-content:center;
 			align-items:flex-end;
@@ -6146,7 +6250,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/directeur.JPG');
 			border-radius:1000px;
-			bottom:883px;
+			bottom:982px;
 			transition:1s
 		 
 			 }
@@ -6161,20 +6265,23 @@ header >ul>li:nth-child(1){
 	  
 			 
 			.rond1 p{
-	  margin-bottom:-60px;
-	  font-size:18px;
+	  margin-bottom:-100px;
+	  font-size:12px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+	  
+	  margin-right:-5px
 			}
+			
 	  
 			.rond2{
 		   height:200px;
 			width:200px;
 			background:#b7d3eb;
 		   border-radius:10000px;
-			margin-top:80px;
+			margin-top:50px;
 			margin-bottom:auto;
 		   display:flex;
 			justify-content:center;
@@ -6191,7 +6298,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/equipe1.JPG');
 			border-radius:1000px;
-			bottom:542px;
+			bottom:598px;
 			transition:1s
 		 
 			 }
@@ -6201,13 +6308,15 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-				.rond2 p{
-	  margin-bottom:-60px;
-	  font-size:18px;
+		  
+		  .rond2 p{
+	  margin-bottom:-100px;
+	  font-size:12px;
 		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		 font-weight:600;
-		 color:#4d4d4d;
+		 color:#343434;
 		 letter-spacing:1px;
+		 margin-left:-100px;
 			}	  
 		
 		  .rond3{
@@ -6215,8 +6324,8 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:#b7d3eb;
 			border-radius:10000px;
-			margin-top:70px;
-			margin-bottom:70px  ;
+			margin-top:50px;
+			margin-bottom:auto  ;
 			 display:flex;
 			justify-content:center;
 			align-items:flex-end ;
@@ -6232,7 +6341,7 @@ header >ul>li:nth-child(1){
 			width:200px;
 			background:center/cover no-repeat url('/static/img/equipe2.JPG');
 			border-radius:1000px;
-			bottom:212px;
+			bottom:215px;
 			transition:1s
 		 
 		 
@@ -6244,9 +6353,18 @@ header >ul>li:nth-child(1){
 			 }
 	  
 	  
-			 .rond3 p{
-				 font-size:18px
-			 }
+	  
+		  .rond3 p{
+	  margin-bottom:-100px;
+	  font-size:12px;
+		 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		 font-weight:600;
+		 color:#343434;
+		 letter-spacing:1px;
+		 letter-spacing:1px;
+	  margin-right:-5px
+	  }
+	  
 	  
 	  
 	  

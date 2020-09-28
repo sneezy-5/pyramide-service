@@ -180,9 +180,10 @@ height: 100px
 
 
 
+
 .banniere{
   height: 500px;
-  background:linear-gradient(to right, #dddbdb6e,#fff) ,center/cover no-repeat url('/static/img/acceuil.jpg');
+  background:linear-gradient(to right, #dddbdb00,#ffffffd6) ,center/cover no-repeat url('/static/img/acceuil.jpg');
   display:flex;
   flex-direction:column;
   align-items:flex-end;
@@ -390,7 +391,7 @@ body{
 footer{
   height:500px;
   position:relative;
-   margin-top:60px
+   margin-top:-5px
 }
 }
   
@@ -406,7 +407,7 @@ footer{
 
   @media only screen and (max-width:1250px){
   	.centre{
-  		height:800px
+  		height:600px
   	}
 
   	  .design:before{
@@ -435,7 +436,7 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
+	font-size:17px
   }
 
  footer{
@@ -676,7 +677,7 @@ footer{
 
   @media only screen and (max-width:853px){
   	  	.centre{
-  		height:1000px
+  		height:700px
   	}
 
   	  .design:before{
@@ -706,7 +707,6 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
   }
 
   }
@@ -779,7 +779,7 @@ footer{
 
 @media only screen and (max-width:725px){
 	  	  	.centre{
-  		height:900px
+  		height:700px
   	}
 
   	  .design:before{
@@ -809,7 +809,6 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
   }
 }
 
@@ -839,9 +838,7 @@ footer{
   
   @media only screen and (max-width:640px){
   
-  .centre .banniere{
-  
-  }
+
   
 	header{
 	 height:550px
@@ -922,7 +919,7 @@ footer{
 @media only screen and (max-width:620px){
 
 		  	  	.centre{
-  		height:1000px
+  		height:750px
   	}
 
   	  .design:before{
@@ -952,7 +949,6 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
   }
 }
 
@@ -1008,7 +1004,7 @@ footer{
 
 
     .centre{
-  		height:1100px
+  		height:850px
   	}
 
   	  .design:before{
@@ -1038,10 +1034,30 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
+
   }
 
 
+}
+
+@media only screen and (max-width:475px){
+	    .centre{
+  		height:650px
+  	}
+
+  	.centre .img-centre{
+  		height:300px
+  	}
+    .centre div{
+	margin:15px;
+	width:400px;
+	margin:auto;
+	margin-top:20px;
+	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height:1.6;
+	color:#3f3f3f;
+	font-size:15px
+  }
 }
 
 
@@ -1094,11 +1110,11 @@ footer{
 
 
     .centre{
-  		height:1200px
+  		height:700px
   	}
  .centre .img-centre{
   	width:350px;
-  	height:400px
+  	height:300px
   }
 
   .centre div{
@@ -1109,7 +1125,7 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
+	font-size:15px
   }
 
 
@@ -1139,11 +1155,11 @@ footer{
 @media only screen and (max-width:377px){
 
     .centre{
-  		height:1300px
+  		height:700px
   	}
  .centre .img-centre{
   	width:300px;
-  	height:400px
+  	height:250px
   }
 
   .centre div{
@@ -1154,17 +1170,16 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
   }
 
 
-    .bars div{ 
-      width:300px;
+   .bars div{ 
+      width:250px;
       margin-top:30px;
       margin-left:20px;
       line-height:1.5;
       font-family:sans-serif;
-      font-size:20px;
+      font-size:17px;
       letter-spacing:1px;
    
     }
@@ -1173,18 +1188,19 @@ footer{
 
       footer .sign{
       position:absolute;
-     width:300px;
+     width:250px;
      bottom:0px;
      left:10px;
        line-height:1.5;
       font-family:sans-serif;
-      font-size:12px;
+      font-size:10px;
       letter-spacing:1px;
     }
 
-footer{
-	height:1100px
-}
+    footer{
+    	height:1000px
+    }
+
 
 }
 
@@ -1199,11 +1215,11 @@ footer{
 @media only screen and (max-width:340px){
 
 	   .centre{
-  		height:1400px
+  		height:550px
   	}
  .centre .img-centre{
   	width:270px;
-  	height:400px
+  	height:200px
   }
 
   .centre div{
@@ -1214,9 +1230,8 @@ footer{
 	 font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height:1.6;
 	color:#3f3f3f;
-	font-size:22px
+	font-size:12px
   }
-
 
 
     .bars div{ 
